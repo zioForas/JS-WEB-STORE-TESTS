@@ -183,7 +183,7 @@ LANDING
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1)
+  background-color: rgba(119, 117, 21, 0.212)
 }
 
 header {
@@ -286,8 +286,8 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-  border: 2px solid #7342d65d;
-  color: #7342d6;
+  border: 2px solid #3e08aa5d;
+  color: #1b5a47;
   width: 100px;
   height: 100px;
   display: flex;
@@ -312,7 +312,7 @@ FEATURES
 
 #features {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #1b5a479a;
 }
 
 .books {
@@ -373,7 +373,7 @@ EXPLORE
 */
 
 #explore {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #1b5a47;
 }
 
 /* 
@@ -417,7 +417,7 @@ BOOKS PAGE
 */
 
 #books__body {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(158, 207, 203, 0.411);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -460,6 +460,16 @@ select {
   color: #7342d6;
 }
 
+
+.books__loading--spinner{
+  display: none !important;
+}
+
+.books__loading .books__loading--spinner {
+  display: block !important;
+}
+
+
 .fa-spinner {
   animation: rotate 600ms infinite linear;
 }
@@ -469,7 +479,7 @@ select {
     transform: rotate(0);
   }
 
-  100% {
+  100% { 
     transform: rotate(360deg);
   }
 }
